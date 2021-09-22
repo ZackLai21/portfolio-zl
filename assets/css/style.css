@@ -32,10 +32,11 @@ body {
 /*this selector controls the property of navigation bar*/
  nav {
    display: inline-block;
+   flex-wrap: wrap;
   padding-top: 15px;
   margin:auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 100%;
+  font-size: 150%;
   background-color: inherit;
   
 }
@@ -155,7 +156,6 @@ p {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    width:30%;
   }
 
   
