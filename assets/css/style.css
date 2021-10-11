@@ -54,7 +54,7 @@ body {
 }
 
  li{
-  display:block;
+  /* display:block; */
   margin-bottom:25px;
 }
 
@@ -86,32 +86,10 @@ p {
   background-position: center;
 }
 
-.gallery {
-  display: block;
-  flex-wrap: wrap;
 
-  /* max-width for demo only */
-  max-width: 750px;
-}
 
-.card {
-  position: relative;
-  display: inline-block;
-  width: 100%;
 
-}
-
-.card:first-child {
-  width: 100%;
-}
-
-.card-img {
-  width: 100%;
-  padding: 10px;
-  
-}
-
-.card-title {
+/* .card-title {
   width:20%;
   height: 30%;
   position: absolute;
@@ -121,27 +99,9 @@ p {
   background-color: rgba(0, 255, 255, 0.8);
   padding: 5px;
   font-size: 50%;
-}
+} */
 
-.card :hover{
-  box-shadow: inset 0px 0px 8px blue, 0 0 15px blue;
-}
-@media screen and (min-width: 414px){
 
- 
-  .gallery{
-    display: flex;
-  }
-  .card{
-    width:50%
-  }
-  
-  li{
-    display: inline-block;
-    margin-left: 25px;
-  }
-
-}
 @media screen and (min-width: 768px) {
   .header h1 {
     display: inline-block;
