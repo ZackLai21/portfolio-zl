@@ -9,6 +9,6 @@ I made this portfolio page for myself. This page is made to showcase my skills a
 
 ## Screenshoot of the page
 
-![alt text](./assets/images/screenshot.png)
+![alt text](./assets/images/screenshot2.png)
 
     
